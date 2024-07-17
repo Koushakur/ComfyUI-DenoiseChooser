@@ -5,8 +5,8 @@ class DenoiseChooser:
       data_in = {
          "required": {
             "Latent": ("LATENT",),
-            "FloatIfEmpty": ("FLOAT", {"default": 1.0}),
-            "FloatIfNot": ("FLOAT", {"default": 0.75})
+            "FloatIfEmpty": ("FLOAT", {"default": 1.0, "min": 0.0, "max": 100.0, "step": 0.05}),
+            "FloatIfNot": ("FLOAT", {"default": 0.75, "min": 0.0, "max": 100.0, "step": 0.05})
          }
       }
       return data_in
