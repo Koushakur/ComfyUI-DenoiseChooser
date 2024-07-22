@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-denoisechooser"
+description = "The latent gets passed straight through unaltered, if it's empty (i.e from a 'Empty Latent Image' node) FLOAT outputs the first value, otherwise it outputs the second value"
+version = "1.0.0"
+license = "LICENSE"
+
+[project.urls]
+Repository = "https://github.com/Koushakur/ComfyUI-DenoiseChooser"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "koushakur"
+DisplayName = "ComfyUI-DenoiseChooser"
+Icon = ""
