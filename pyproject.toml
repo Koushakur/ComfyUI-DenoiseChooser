@@ -9,6 +9,6 @@ Repository = "https://github.com/Koushakur/ComfyUI-DenoiseChooser"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "koushakur"
 DisplayName = "ComfyUI-DenoiseChooser"
 Icon = ""
